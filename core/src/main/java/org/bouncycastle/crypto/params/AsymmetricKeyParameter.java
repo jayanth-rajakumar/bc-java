@@ -6,7 +6,7 @@ public class AsymmetricKeyParameter
     implements CipherParameters
 {
     boolean privateKey;
-
+    
     public AsymmetricKeyParameter(
         boolean privateKey)
     {

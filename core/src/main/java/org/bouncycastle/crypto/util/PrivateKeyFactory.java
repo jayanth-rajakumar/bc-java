@@ -282,7 +282,7 @@ public class PrivateKeyFactory
         }
     }
 
-    private static byte[] getRawKey(PrivateKeyInfo keyInfo, int expectedSize)
+    public static byte[] getRawKey(PrivateKeyInfo keyInfo, int expectedSize)
         throws IOException
     {
         byte[] result = ASN1OctetString.getInstance(keyInfo.parsePrivateKey()).getOctets();

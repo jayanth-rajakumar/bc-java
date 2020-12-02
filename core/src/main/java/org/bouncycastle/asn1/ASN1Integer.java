@@ -9,6 +9,7 @@ import org.bouncycastle.util.Properties;
 /**
  * Class representing the ASN.1 INTEGER type.
  */
+
 public class ASN1Integer
     extends ASN1Primitive
 {

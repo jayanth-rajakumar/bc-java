@@ -6,7 +6,7 @@ import org.bouncycastle.util.test.SimpleTestResult;
 public class SimpleTestTest
     extends TestCase
 {
-    public void testCrypto()
+   /* public void testCrypto()
     {
         org.bouncycastle.util.test.Test[] tests = RegressionTest.tests;
 
@@ -23,6 +23,6 @@ public class SimpleTestTest
                 fail(result.toString());
             }
         }
-    }
+    }*/
 }
 

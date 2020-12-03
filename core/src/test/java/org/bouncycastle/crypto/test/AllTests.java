@@ -17,7 +17,7 @@ public class AllTests
     {
         TestSuite suite = new TestSuite("Lightweight Crypto Tests");
         
-        suite.addTestSuite(SimpleTestTest.class);
+        //suite.addTestSuite(SimpleTestTest.class);
         suite.addTestSuite(GCMReorderTest.class);
         
         return new BCTestSetup(suite);
